@@ -1,3 +1,7 @@
+/* 
+    CSS Variables to make your life easier
+*/
+
 :root{
     --card1: hsl(31, 77%, 52%);
     --card2: hsl(184, 100%, 22%);
@@ -5,6 +9,11 @@
     --font:hsla(0, 0%, 100%, 0.75);
     --button:hsl(0, 0%, 95%);
 }
+
+
+/*
+    Mobile Design First
+*/
 
 body{
     margin: 0;
@@ -23,6 +32,7 @@ body{
 }
 
 .wrapper{
+    background-color: var(--button);
     height: auto;
     width: 100vw;
     display: flex;
@@ -68,6 +78,7 @@ body{
     background-color: var(--card1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-top: 90px;
 }
 
 #box1 button{
@@ -99,6 +110,7 @@ body{
     background-color: var(--card3);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-bottom: 90px;
 }
 
 #box3 button{
@@ -114,3 +126,8 @@ body{
 .attribution{
     display: none;
 }
+
+/*
+    Desktop Design
+*/
+
