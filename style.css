@@ -38,6 +38,7 @@ body{
     display: flex;
     align-items: center;
     flex-shrink: 0;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
 }
@@ -124,7 +125,21 @@ body{
 }
 
 .attribution{
-    display: none;
+    font-size: 11px; 
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.attribution a:hover{
+    text-decoration: underline;
+    color: var(--card2);
 }
 
 /*
@@ -237,4 +252,5 @@ body{
         border: 2px solid var(--button);
     }
     
+
 }
