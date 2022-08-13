@@ -40,9 +40,9 @@ Users should be able to:
 
 ## Author
 
-- Website - [Arbase](https://www.arbase.github.io)
-- Frontend Mentor - [@arbase](https://www.frontendmentor.io/profile/arbase)
-- Twitter - [@arbase_](https://www.twitter.com/arbase_)
+- Website - [Personal](https://www.aroyanbakti.com)
+- Frontend Mentor - [@aroyan](https://www.frontendmentor.io/profile/aroyan)
+- Twitter - [@aroyanbaktis](https://www.twitter.com/aroyanbaktis)
 
 ## Acknowledgments
 
